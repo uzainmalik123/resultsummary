@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
@@ -9,27 +10,49 @@
 <body>
   <div class="container">
     <div class="card">
-      <div class="card-image"></div>
-      <h1>Summary</h1>
-      <div class="card-content">
-        <div class="reaction">
-          <div class="r-image"></div>
-          <p>80 / 100</p>
+      <div class="card-content-1">
+        <h3>Your Result</h2>
+        <div class="circle">
+          <h1>76</h1>
+          <p>of 100</p>
         </div>
-        <div class="memory">
-          <div class="m-image"></div>
-          <p>92 / 100</p>       
-        </div>
-        <div class="verbal">
-          <div class="ve-image"></div>
-          <p>61 / 100</p>  
-        </div>
-        <div class="visual">
-          <div class="vi-image"></div>
-          <p>72 / 100</p>    
-        </div>
+        <h2>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
-      <div class="card-button">
+      <div class="card-content-2">
+        <div class="main-content">
+          <h1>Summary</h1>
+          <div class="scores">
+            <div class="reaction after">
+              <div class="r-image before">
+                <img src="./assets/images/icon-reaction.svg">
+                <p>Reaction</p>
+              </div>
+            <p><span>80&nbsp;/</span>&nbsp;100</p>
+          </div>
+          <div class="memory after">
+            <div class="m-image before">
+              <img src="./assets/images/icon-memory.svg">
+              <p>Memory</p>
+            </div>
+            <p><span>92&nbsp;/</span>&nbsp;100</p>       
+          </div>
+          <div class="verbal after">
+            <div class="ve-image before">
+              <img src="./assets/images/icon-verbal.svg">
+              <p>Verbal</p>
+            </div>  
+            <p><span>61&nbsp;/</span>&nbsp;100</p>  
+          </div>
+          <div class="visual after">
+            <div class="vi-image before">
+              <img src="./assets/images/icon-visual.svg">
+              <p>Visual</p>
+            </div>
+            <p><span>72&nbsp;/</span>&nbsp;100</p>    
+          </div>
+          </div>
+        </div>
         <button>Continue</button>
       </div>
     </div>
