@@ -67,7 +67,8 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: hsl(221, 100%, 96%);
+    box-shadow: 0 35px 35px 0 rgba(0, 0, 0, 0.75);
 }
 .card {
     width: 55%;
