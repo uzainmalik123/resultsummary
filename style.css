@@ -71,7 +71,7 @@ span {
     box-shadow: 0 35px 35px 0 rgba(0, 0, 0, 0.75);
 }
 .card {
-    width: 55%;
+    width: clamp(600px, 728.7500000000001px, 860px);
     height: 80%;
 
     display: flex;
